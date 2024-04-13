@@ -1,0 +1,14 @@
+int a=34;
+int b=12;
+int c=8;
+boolean R1;
+R1=!(a+b==c);
+boolean R2;
+R2= (c!=0);
+boolean R3;
+R3=(b-c>=19);
+boolean R4;
+R4= R2&&R3;
+boolean R5;
+R5 = R1 || R4;
+println (R5);
