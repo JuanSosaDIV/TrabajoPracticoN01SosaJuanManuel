@@ -1,3 +1,4 @@
-int x=2, y=1;
-float resultado =(x^2+y^2)^(1/2);
+float x=2, y=1;
+float resultado;
+resultado = pow (pow(x,2)+ pow(y,2),0.5);
 println (resultado);
